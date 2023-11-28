@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 import torch
 
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
+sys.path.insert(1, os.path.join(sys.path[0], '/content/Mask2Former'))
 
 from torch.nn import functional as F
 
