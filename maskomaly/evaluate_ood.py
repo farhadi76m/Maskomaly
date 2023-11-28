@@ -62,7 +62,7 @@ def main():
         
         
 
-        if i % args.logging_interval == 0 and args.datset != 'smiyc_full':
+        if i % args.logging_interval == 0 and args.dataset != 'smiyc_full':
             write_anomaly_to_image(data["image"], data["gt"], soft_mask, data["ignore"], os.path.join(args.output, f'{i:03d}'), 100)
 
     mode = "total"
