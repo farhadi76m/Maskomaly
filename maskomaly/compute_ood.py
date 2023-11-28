@@ -27,6 +27,7 @@ def get_parser():
     )
     parser.add_argument(
         "--output",
+        default = "result",
         help="Choose the output destination.",
     )
     parser.add_argument(
