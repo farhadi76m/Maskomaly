@@ -12,7 +12,7 @@ from torch.nn import functional as F
 
 from detectron2.config import get_cfg
 from detectron2.projects.deeplab import add_deeplab_config
-from detectron2.engine.defaults import DefaultPredictor
+from detectron2.engine import DefaultPredictor
 
 from mask2former import add_maskformer2_config
 
